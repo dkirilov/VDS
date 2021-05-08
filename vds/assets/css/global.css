@@ -1,0 +1,105 @@
+body{
+	background-color: #FAFAFA;
+	font-size: 13pt;
+	color: #131331;
+	margin: 0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: #131391;
+	margin: 20px;
+}
+
+.centered-heading{
+	text-align: center;
+}
+
+header nav{
+	background-color: #131331;
+	color: #FAFAFA;
+}
+
+header nav a:link,
+header nav a:visited{
+	color: #FAFAFA;
+	text-decoration: none;
+	line-height: 1.9;
+	padding: 5px;
+}
+
+header nav a:hover{
+	text-decoration: underline;
+}
+
+header nav ul{
+	margin: 0px;
+}
+
+header nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+div.form-row{
+	margin: 2px;
+	padding: 8px;
+	background: 
+}
+
+.upload-form{
+	width: 70%;
+	margin: 15px auto;
+}
+
+p.upload-subline{
+	text-align: center;
+}
+
+p.msg.success{
+	color: green;
+}
+
+p.msg.error{
+	color: red;
+}
+
+.pagination ul li{
+    list-style-type: none;
+    display: inline;
+}
+.pagination a:link,
+.pagination a:visited{
+    color: #131331;
+    text-decoration: none;
+    padding: 4px;
+}
+.pagination a:hover{
+    font-weight: bold;
+}
+.pagination li.active a:link,
+.pagination li.active a:visited,
+.pagination li.active a:hover{
+    background-color: #131331;
+    color: #FAFAFA;
+}
+.pagination li.special a:link,
+.pagination li.special a:visited,
+.pagination li.special a:hover{
+    background-color: #333;
+    color: #FAFAFA;
+}
+
+/* Search forms */
+form.search_form{
+	text-align: center;
+}
+form.search_form input{
+	margin: 10px;
+	font-size: 14pt;
+	padding: 8px;
+}
+form.search_form button{
+	font-size: 14pt;
+	padding: 3px;
+	margin-left: -15px;
+}

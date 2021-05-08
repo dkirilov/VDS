@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+     <title><?= $page_title ?> @ Zqpalnik VDS</title>
+     <meta charset="Windows-1251">
+
+      <?php
+      if(isset($css_to_include) && !empty($css_to_include)){	
+      	  \VDS\Tools::inclCssMulti($css_to_include);
+      }
+      ?>
+  </head>
+  <body>
+     <?php if(isset($show_nav) && $show_nav): ?>
+     <header>
+        <nav>
+          <ul>
+            <li><a href="<?= \VDS\UserManager::$dashboard_link ?>" title="<< Към таблото за управление">Табло</a></li>
+            <li><a href="<?= APP_BASE_URL ?>/logout" title="Излезте от системата">Изход</a></li>
+          </ul>
+        </nav>
+     </header>
+     <?php endif; ?> 
